@@ -8,10 +8,10 @@
  * Controller of the angularOnGithubApp
  */
 angular.module('angularOnGithubApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+  .controller('MainCtrl', function ($scope) {
+    $scope.items = [
+      'item 1',
+      'item 2',
+      'item 3'
     ];
   });
